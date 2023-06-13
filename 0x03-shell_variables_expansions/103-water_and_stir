@@ -1,0 +1,9 @@
+#!/bin/bash
+
+water=$(echo $WATER | tr '[:lower:]' '[:upper:]' | tr 'A-Z' '0-9A-J')
+stir=$(echo $STIR | tr '[:lower:]' '[:upper:]' | tr 'A-Z' '0-9A-J')
+
+bestchol=$((water + stir))
+
+echo "Result in base bestchol: $bestchol"
+
