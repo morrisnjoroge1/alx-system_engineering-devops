@@ -3,7 +3,7 @@
 
 a=1
 
-until [ ! $a -le 10 ]
+until [ ! $a -le 10 ];
 do
 	echo "Best School"
 	((a++))
