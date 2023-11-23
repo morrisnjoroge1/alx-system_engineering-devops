@@ -3,6 +3,7 @@
 
 
 c=1
+
 while [ $c -lt 10 ]
 do
 	echo "Best School"
